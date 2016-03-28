@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--button描述的数组-->
+    <string-array name="button_tips">
+        <item>偏低</item>
+        <item>正常</item>
+        <item>正常高值</item>
+        <item>轻度</item>
+        <item>中度</item>
+        <item>重度</item>
+    </string-array>
+</resources>

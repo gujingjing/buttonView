@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="gjj_unit_test.buttondemo.MainActivity">
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_marginTop="15sp"
+        android:hint="请输入需要变化的位置"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_marginTop="15dp"
+        android:text="点击测试"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <gjj_unit_test.buttondemo.ButtonView
+        android:layout_marginTop="15dp"
+        android:visibility="gone"
+        android:id="@+id/btn_view"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </gjj_unit_test.buttondemo.ButtonView>
+    <gjj_unit_test.buttondemo.ButtonViewNew
+        android:visibility="gone"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn_view_new"
+        app:marging_width="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </gjj_unit_test.buttondemo.ButtonViewNew>
+
+    <gjj_unit_test.buttondemo.ButtonViewViewNumber
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn_view_view_number"
+        app:marging_width="20dp"
+        app:showNumber="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </gjj_unit_test.buttondemo.ButtonViewViewNumber>
+</LinearLayout>

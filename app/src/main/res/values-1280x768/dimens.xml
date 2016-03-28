@@ -1,0 +1,15 @@
+<resources>
+    <!--引导页的点-->
+    <dimen name="point_guide">13dp</dimen>
+    <!--引导页padding-->
+    <dimen name="view_guide_padding">30dp</dimen>
+    <dimen name="view_guide_padding_two">15dp</dimen>
+    <dimen name="view_image_padding">100dp</dimen>
+    <dimen name="view_marging_button">20dp</dimen>
+    <!--体质检测padding-->
+    <dimen name="check_body_text_padding">25dp</dimen>
+    <!--numberPadding-->
+    <dimen name="numberPadding">12dp</dimen>
+    <dimen name="textsize">14sp</dimen>
+    <dimen name="xueya_padding">25dp</dimen>
+</resources>
