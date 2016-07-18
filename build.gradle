@@ -15,8 +15,6 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        //jitpack上传到代码仓库
-        maven { url "https://jitpack.io" }
     }
 }
 
