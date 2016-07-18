@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/gujingjing/buttonView.svg)](https://jitpack.io/#gujingjing/buttonView)
+
 最近项目自定义的控件比较多，自己也学习了不少，以前觉得自定义很难，研究捣鼓了一段时间，感觉也就那么回事，无非是要计算和绘制，先上效果图
 
 
